@@ -70,11 +70,15 @@ Beautifully themed with:
 
 ## 📸 Screenshot
 
-```md
+<p align="center">
+  <img 
+    src="https://github.com/shashikant190/GiftAndEventBudgetPlanner/blob/main/public/UserDashboard.png?raw=1" 
+    alt="App Screenshot"
+    width="100%"
+  />
+</p>
 
-![App Screenshot](https://raw.githubusercontent.com/shashikant190/GiftAndEventBudgetPlanner/main/public/UserDashboard.png)
+<p align="center"><strong>Made for Indian Families Who Celebrate Big</strong></p>
 
-
-Made for Indian Families Who Celebrate Big
-
-From planning your wedding, organizing Diwali, tracking gifts for Rakhi, preparing checklists for Navratri, or budgeting for a birthday, this web app supports every celebration with grace and simplicity.
+From planning your wedding, organizing Diwali, tracking gifts for Rakhi, preparing checklists for Navratri, or budgeting for a birthday —  
+this web app supports every celebration with grace and simplicity.
