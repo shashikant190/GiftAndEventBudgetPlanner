@@ -1,73 +1,79 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="YOUR_BANNER_IMAGE_URL" alt="Indian Event & Gift Budget Planner Banner" width="100%" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br />
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="YOUR_LOGO_IMAGE_URL" alt="App Logo" width="140" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1 align="center">🌸 Indian Event & Gift Budget Planner</h1>
 
-## React Compiler
+<p align="center"><strong>Plan. Celebrate. Remember. — The smarter way to organize Indian celebrations.</strong></p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<br />
 
-## Expanding the ESLint configuration
+## ✨ What This App Does
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🎉 Event Planning Made Simple
+Plan any celebration:
+- Weddings  
+- Diwali, Holi, Navratri, Rakhi  
+- Birthdays & Anniversaries  
+- Housewarmings  
+- Baby Showers & Engagements  
+- Custom events  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 💰 Budget Tracking That Keeps You in Control
+- Track all expenses  
+- See spent vs remaining budget  
+- Visual progress indicator  
+- Perfect for big Indian family events  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🎁 Smart Gift Management
+- Track gifts received  
+- Track gifts to give  
+- Record giver/receiver details  
+- Helps avoid confusion during festivals & ceremonies  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 📋 Intelligent Checklists
+- Pre-built culturally relevant checklists  
+- Custom tasks  
+- Completion tracking  
+- Great for rituals, ceremonies & shopping lists  
+
+---
+
+### 🔐 Secure & Personalized
+- Email login  
+- Private events & budgets  
+- Smooth, modern UI  
+
+---
+
+## 🎨 A Visual Experience Inspired by Indian Culture
+
+Beautifully themed with:
+- Mandala patterns  
+- Festive color palettes  
+- Clean modern layout  
+- Family-friendly UX  
+
+---
+
+## 📸 Screenshot
+
+```md
+![App Screenshot](YOUR_SCREENSHOT_URL_HERE)
+
+
+Made for Indian Families Who Celebrate Big
+
+From planning your wedding, organizing Diwali, tracking gifts for Rakhi, preparing checklists for Navratri, or budgeting for a birthday, this web app supports every celebration with grace and simplicity.
