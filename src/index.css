@@ -82,3 +82,11 @@
     box-shadow: 0 4px 20px rgba(248, 156, 28, 0.08);
   }
 }
+
+.pattern-grid {
+  background-image:
+    radial-gradient(circle at center, #000 1px, transparent 1px),
+    radial-gradient(circle at center, #000 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
