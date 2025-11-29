@@ -71,7 +71,7 @@ Beautifully themed with:
 ## 📸 Screenshot
 
 ```md
-![App Screenshot](https://github.com/shashikant190/GiftAndEventBudgetPlanner/blob/main/public/UserDashboard.png)
+![App Screenshot](https://github.com/shashikant190/GiftAndEventBudgetPlanner/main/public/UserDashboard.png)
 
 
 Made for Indian Families Who Celebrate Big
