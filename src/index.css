@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme Tokens */
+@layer base {
+  :root {
+    --background: 40 29% 96%;
+    --foreground: 0 0% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 35 95% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 66% 33%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 54%;
+
+    --accent: 35 95% 65%;
+    --accent-foreground: 0 0% 10%;
+
+    --success: 145 62% 42%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 43 100% 64%;
+    --warning-foreground: 0 0% 10%;
+
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 20% 88%;
+    --input: 40 20% 88%;
+    --ring: 35 95% 55%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 0 0% 10%;
+    --foreground: 0 0% 98%;
+    --border: 0 0% 25%;
+    --input: 0 0% 25%;
+  }
+}
+
+/* Base Styles (NO @apply for custom utilities) */
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: var(--font-body, system-ui);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading, system-ui);
+  }
+}
+
+/* Utilities */
+@layer utilities {
+  .pattern-mandala {
+    background-image: url(/* your svg */);
+  }
+
+  .gradient-festive {
+    background: linear-gradient(
+      135deg,
+      hsl(35 95% 55%) 0%,
+      hsl(43 100% 64%) 100%
+    );
+  }
+
+  .shadow-warm {
+    box-shadow: 0 4px 20px rgba(248, 156, 28, 0.08);
+  }
+}
