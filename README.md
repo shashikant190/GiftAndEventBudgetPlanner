@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="YOUR_BANNER_IMAGE_URL" alt="Indian Event & Gift Budget Planner Banner" width="100%" />
+  <img src="https://github.com/shashikant190/GiftAndEventBudgetPlanner/blob/main/public/LandingPage.png" alt="Indian Event & Gift Budget Planner Banner" width="100%" />
 </p>
 
 <br />
 
 <p align="center">
-  <img src="YOUR_LOGO_IMAGE_URL" alt="App Logo" width="140" />
+  <img src="https://github.com/shashikant190/GiftAndEventBudgetPlanner/blob/main/public/logogbp.png" alt="App Logo" width="140" />
 </p>
 
 <h1 align="center">🌸 Indian Event & Gift Budget Planner</h1>
@@ -71,7 +71,7 @@ Beautifully themed with:
 ## 📸 Screenshot
 
 ```md
-![App Screenshot](YOUR_SCREENSHOT_URL_HERE)
+![App Screenshot](https://github.com/shashikant190/GiftAndEventBudgetPlanner/blob/main/public/UserDashboard.png)
 
 
 Made for Indian Families Who Celebrate Big
